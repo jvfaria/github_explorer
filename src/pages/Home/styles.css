@@ -1,0 +1,135 @@
+.container {
+   width: 100vw;
+   height: 100vh;
+
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+.container #content {
+   width: 960px;
+   height: 100vh;
+}
+
+
+
+.container #content p {
+   max-width: 433px;
+   width: auto;
+   display: block;
+   font: 700 48px Roboto !important;
+   position: absolute;
+   top: 172px;
+   line-height: 56px;
+}
+
+.container #content header #git-header span {
+  margin-right: 16px;
+}
+.container #content #search-group {
+  height: 72px;
+  width: 714px;
+  max-width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 324px;
+
+}
+
+.container #content #search-field {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+
+  font: 200 20px Roboto;
+}
+
+.container #content #search-button {
+  height: 100%;
+  width: 210px;
+
+  position: absolute;
+  right: 0;
+
+  font: 400 20px Roboto;
+  color: #FFF;
+  background-color: #04D361;
+  border: none;
+  border-radius: 5px;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container #content #search-button:hover {
+  transition: 0.3s;
+  opacity: 0.9;
+  background-color: #00b050;
+}
+.container #content #search-field::placeholder {
+  font: 100 Roboto;
+  font-size: 20px;
+  color: #A8A8B3;
+}
+input[type=text] {
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+.container #content main {
+  position: absolute;
+  top: 516px;
+  margin: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    width: 100vw;
+  }
+
+  .container{
+    max-width: 100vw;
+  }
+
+  .container #content p {
+    max-width: 433px;
+    width: auto;
+    display: block;
+    font: 700 42px Roboto !important;
+    position: absolute;
+    top: 162px;
+    line-height: 52px;
+  }
+  .container #content #search-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container #content #search-field {
+    width: 100%;
+  }
+  .container #content #search-button {
+    width: 30%;
+  }
+  .container #content main {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
