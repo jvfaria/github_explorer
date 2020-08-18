@@ -1,0 +1,25 @@
+.container #content header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container #content header #git-logo {
+  width: 32px;
+  height: 32px;
+}
+
+.container #content header #main-background {
+  width: 100%;
+  height: auto;
+
+  opacity: 15%;
+}
+
+.container #content header #git-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-top: 50px;
+  text-align: center;
+}
